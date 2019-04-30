@@ -1,0 +1,249 @@
+.head{
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+.bg {
+  background-image: url("bg2.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p1{
+  font-family: 'Pacifico', cursive;
+}
+.imgcard{
+  border-radius: 7.5%;
+}
+.flip-card {
+  margin-left: 40%;
+  margin-top: 10%;
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px;
+}
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  margin-top: 10px;
+}
+.flip-card-front {
+  background-color: black;
+  color: black;
+  border-radius: 10%;
+}
+.flip-card-back {
+  background-color: black;
+  color: white;
+  transform: rotateY(180deg);
+  width: 100%;
+  height: 150%;
+  border-radius: 10%;
+}
+
+body{
+  margin: 20px 20px 20px 20px;
+}
+.buttonone{
+  margin-left: 41%;
+  margin-top: 100px;
+
+}
+#link{
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-radius: 50%; */
+}
+.link{
+  /* border-radius: 50%; */
+  height: 40px;
+  width: 40px;
+}
+.link:hover {
+  opacity: 0.7;
+}
+
+#face{
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-radius: 50%; */
+}
+.fb{
+  width: 40px;
+  height: 40px;
+  /* border-radius: 50%; */
+}
+.fb:hover {
+  opacity: 0.7;
+}
+
+#insta{
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-radius: 50%; */
+}
+.insta{
+  /* border-radius: 50%; */
+  width: 40px;
+  height: 40px;
+}
+.insta:hover {
+  opacity: 0.7;
+}
+
+#cv{
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-radius: 50%; */
+
+}
+.cv{
+  /* border-radius: 50%; */
+  height: 40px;
+  width: 40px;
+
+}
+.cv:hover {
+  opacity: 0.7;
+}
+
+#google{
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-radius: 50%; */
+}
+.gmail{
+  /* border-radius: 50%; */
+  height: 40px;
+  width: 40px;
+}
+.gmail:hover {
+  opacity: 0.7;
+}
+
+#yq{
+  padding: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* border-radius: 50%; */
+}
+.yq{
+  /* border-radius: 50%; */
+  height: 40px;
+  width: 40px;
+}
+.yq:hover {
+  opacity: 0.7;
+}
+
+
+/*PAGE_2*/
+.bg2 {
+  background-image: url("bg2.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.p2{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    margin-left: 500px;
+  }
+
+.table1{
+  margin-left: 250px;
+  margin-top: 5%;
+  border-spacing: 50px;
+}
+
+/*techbody*/
+.bg3 {
+  background-image: url("bg2.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.techbody{
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.techh{
+  text-align: center;
+  font-size: 60px;
+}
+
+/*Certificate*/
+.bg4 {
+  background-image: url("bg2.jpeg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hc1{
+  text-align: center;
+  font-size: 50px;
+}
+
+/*Certificate*/
+
+.slider{
+  overflow: hidden;
+  height: 400px;
+  width: 500px;
+  position: relative;
+  box-shadow: 2px 2px 2px 2px #ccc;
+}
+
+img{
+  height: 400px;
+  width: 100%;
+}
+
+#cert{
+  padding: 0;
+  border: none;
+  background: black;
+  font-size: 40px;
+ color: white;
+  position: absolute;
+ top: 50%;
+cursor: pointer;
+}
+
+.next{
+  border-radius: 10px 0px 0px 10px;
+  margin-left: 95%;
+}
+
+.prew{
+  border-radius: 0px 10px 10px 0px;
+  margin-right: 97%;
+}
+
+.tt{
+  border: 0;
+  padding: 0;
+  margin-left: 150px;
+  border-spacing: 150px;
+  height: auto;
+  width: auto;
+
+}
